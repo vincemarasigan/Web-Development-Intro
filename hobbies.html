@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Hobbies</title>
+  <style>
+    .container {
+      display: flex; 
+      margin-top: 20px;
+      justify-content: space-between;
+    }
+
+    .hobby {
+      display: flex;
+      flex-direction: column; 
+      width: 33.33%; 
+      box-sizing: border-box;
+    }
+
+    .hobby-text {
+      text-align: center;
+      border: 1px solid black; 
+      padding: 10px;
+      height: auto; 
+    }
+
+    .hobby-image {
+      text-align: center;
+      border: 1px solid black; 
+      padding: 10px;
+      box-sizing: border-box;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hobby-image img {
+      max-width: 100%; 
+      max-height: 100%; 
+    }
+
+  
+    .hobby + .hobby {
+      margin-left: -1px; 
+    }
+  </style>
+</head>
+<body>
+    <a href="index.html"><li>Home Page</li></a>
+
+  <h1>My Hobbies</h1>
+
+  <div class="container">
+
+    <div class="hobby">
+      <div class="hobby-text">
+        <h3>Basketball</h3>
+      </div>
+      <div class="hobby-image">
+        <img src="Images/BBB.jpg">
+      </div>
+    </div>
+
+    <div class="hobby">
+      <div class="hobby-text">
+        <h3>Drinking</h3>
+      </div>
+      <div class="hobby-image">
+        <img src="Images/DDD.jpg">
+      </div>
+    </div>
+
+    <div class="hobby">
+      <div class="hobby-text">
+        <h3>Hanging out with friends</h3>
+      </div>
+      <div class="hobby-image">
+        <img src="Images/HHH.jpg">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
